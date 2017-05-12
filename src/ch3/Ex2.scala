@@ -1,4 +1,4 @@
-import scala.List
+package ch3
 
 object Ex2 extends App {
   def tail(l: List[_]) =

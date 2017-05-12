@@ -1,3 +1,5 @@
+package ch3
+
 import scala.math.Numeric
 
 object Ex11 extends App {

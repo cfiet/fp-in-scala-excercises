@@ -1,3 +1,5 @@
+package ch3
+
 object Ex23 extends App {
   def zipWith[A, B, C] (a: List[A]) (b: List[B]) (f: (A, B) => C): List[C] = {
     if (a.isEmpty || b.isEmpty)

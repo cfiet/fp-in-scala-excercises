@@ -1,3 +1,5 @@
+package ch3
+
 object Ex15 extends App {
   def concatR[A] (l: List[A]) (r: List[A]): List[A] =
     Ch3Utils.foldRight (l) (r) ((i, acc) => i :: acc)

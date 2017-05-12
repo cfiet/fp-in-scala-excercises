@@ -1,4 +1,4 @@
-import scala.collection.immutable.Stream.Cons
+package ch3
 
 object Ex12 extends App {
   def reverseL[T] (l: List[T]): List[T] =

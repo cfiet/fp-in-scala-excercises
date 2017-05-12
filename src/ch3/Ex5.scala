@@ -1,3 +1,5 @@
+package ch3
+
 object Ex5 extends App {
   def dropWhile[A](l: List[A], p: A => Boolean): List[A] =
     if (l.length == 0 || p(l.head))

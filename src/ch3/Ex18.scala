@@ -1,3 +1,5 @@
+package ch3
+
 object Ex18 extends App {
   def map[A, B] (l: List[A]) (f: (A => B)): List[B] =
     Ex10.foldLeft (l) (identity[List[B]](_)) ((i, cont) =>

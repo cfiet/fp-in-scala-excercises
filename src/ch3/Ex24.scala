@@ -1,3 +1,5 @@
+package ch3
+
 object Ex24 extends App {
   def hasSubsequence[A] (sup: List[A]) (sub: List[A]): Boolean =
     if (sub.isEmpty)

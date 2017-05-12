@@ -1,3 +1,5 @@
+package ch3
+
 object Ex28 extends App {
   def treeMap[A, B] (t: Tree[A]) (f: (A) => B): Tree[B] =
     t match {

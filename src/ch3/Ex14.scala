@@ -1,3 +1,5 @@
+package ch3
+
 object Ex14 extends App {
   def appendR[A] (l: List[A]) (a: A): List[A] =
     Ch3Utils.foldRight (l) (List(a)) ((i, acc) => i :: acc)

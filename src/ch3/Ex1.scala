@@ -1,3 +1,5 @@
+package ch3
+
 object Ex1 extends App {
   def sum(l: List[Int]): Int =
     l.foldLeft (0) (_ + _)

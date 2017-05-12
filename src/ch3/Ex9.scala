@@ -1,3 +1,5 @@
+package ch3
+
 import scala.collection.AbstractSeq
 
 object Ex9 extends App {

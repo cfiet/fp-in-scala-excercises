@@ -1,3 +1,5 @@
+package ch3
+
 object Ex29 extends App {
   def treeFold[A, B] (t: Tree[A]) (lf: A => B) (mf: (B, B) => B): B =
     t match {

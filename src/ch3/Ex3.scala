@@ -1,3 +1,5 @@
+package ch3
+
 object Ex3 extends App {
   def setHead[A] (l: List[A], i: A): List[A] =
     l match {

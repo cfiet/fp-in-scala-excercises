@@ -1,3 +1,5 @@
+package ch3
+
 object Ex4 extends App {
   def drop(l: List[_], n: Int): List[_] =
     if (n <= 0 || l.length < n)

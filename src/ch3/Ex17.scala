@@ -1,3 +1,5 @@
+package ch3
+
 object Ex17 extends App {
   def d2s (l: List[Double]): List[String] =
     Ex10.foldLeft (l) (identity[List[String]](_)) ((i: Double, cont:List[String] => List[String]) =>

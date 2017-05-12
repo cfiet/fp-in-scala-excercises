@@ -1,3 +1,5 @@
+package ch3
+
 object Ex26 extends App {
   def treeMax (t: Tree[Int]): Int =
     t match {

@@ -1,3 +1,5 @@
+package ch3
+
 object Ex6 extends App {
   def init[_](l: List[_]): List[_] =
     if (l.length <= 1)

@@ -1,3 +1,5 @@
+package ch3
+
 object Ex25 extends App {
   def treeSize[_] (t: Tree[_]): Int =
     t match {

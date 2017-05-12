@@ -1,3 +1,5 @@
+package ch3
+
 object Ex19 extends App {
   def filter[T] (l: List[T]) (f: T => Boolean): List[T] =
     Ex10.foldLeft (l) (identity[List[T]](_)) ((i, cb) =>

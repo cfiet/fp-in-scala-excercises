@@ -1,3 +1,5 @@
+package ch3
+
 object Ex10 extends App {
   def foldLeft[A, B] (l: List[A]) (acc: B) (f: (A, B) => B): B =
     l match {

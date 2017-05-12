@@ -1,3 +1,5 @@
+package ch3
+
 object Ex13 extends App {
   def foldLeft2[A, B] (l: List[A]) (acc: B) (f: (A, B) => B): B =
     Ch3Utils.foldRight (l) ((b: B) => b) ((i, fnc) =>

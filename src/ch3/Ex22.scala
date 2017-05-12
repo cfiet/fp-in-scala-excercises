@@ -1,3 +1,5 @@
+package ch3
+
 object Ex22 extends App {
   def zipInt (a: List[Int]) (b: List[Int]): List[Int] =
     if (a.isEmpty || b.isEmpty)

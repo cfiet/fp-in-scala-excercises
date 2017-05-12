@@ -1,3 +1,5 @@
+package ch3
+
 object Ex16 extends App {
   def addOne (l: List[Int]) =
     Ex10.foldLeft (l) ((i: List[Int]) => i) ((i, fun) =>

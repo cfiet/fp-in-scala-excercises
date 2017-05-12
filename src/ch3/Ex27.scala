@@ -1,3 +1,5 @@
+package ch3
+
 object Ex27 extends App {
   def treeDepth (t: Tree[_]): Int =
     t match {
